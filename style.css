@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+nav ul {
+    min-height: 10vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav h1 {
+    font-size: 3.8rem;
+    font-family: 'Dancing Script', cursive;
+    color: brown;
+}
+
+nav a:hover {
+    color: rgb(172, 172, 172);
+    transition: 0.5s;
+}
+
+
+/*NAV Bar is Done, lets move forward to section 2*/
+
+.section2 {
+    min-height: 90vh;
+    background-image: url(img/medium\ size.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+}
+
+.section2 h2 {
+    color: white;
+    font-size: 3.4rem;
+    padding: 2rem;
+    line-height: 5.8rem;
+    font-weight: 400;
+    font-family: 'Cabin', sans-serif;
+}
+
+.section2 button,
+.s3sub2 button {
+    padding: 0.5rem 8rem;
+    background-color: brown;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1.7rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.section2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.section2 button:hover {
+    background-color: burlywood;
+    transition: 1s;
+}
+
+
+/*SECTION 2 is over*/
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section3 img {
+    width: 100%;
+    height: 85vh;
+}
+
+.s3sub1 {
+    width: 50%;
+}
+
+.s3sub2 {
+    width: 40%;
+    padding-top: 3rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.s3sub2 h2 {
+    font-size: 2.6rem;
+    color: burlywood;
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+}
+
+.s3sub2 h1 {
+    font-size: 3rem;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}
+
+.s3sub2 p {
+    line-height: 2.5rem;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.s3sub2 button {
+    margin-top: 1rem;
+    padding: 0.4rem 2rem;
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 400;
+}
+
+.s3sub2 button:hover {
+    background-color: burlywood;
+    transition: 1s;
+}
